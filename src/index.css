@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #fff;
+  --text: #0f0f0f;
+  --sub: #606060;
+  --hover: #f2f2f2;
+  --border: #e5e5e5;
+  --search: #f2f2f2; 
+}
+
+.dark {
+  --bg: #0f0f0f;
+  --text: #f1f1f1;
+  --sub: #aaa;
+  --hover: #272727;
+  --border: #3f3f3f;
+  --search: #272727; 
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Roboto", Arial, sans-serif;
+  margin: 0;
+}
